@@ -82,8 +82,8 @@ const { sleep } = require("../controllers/sleep");
 const { sontung } =
 require("../controllers/sontung");
 const { hi } = require("../controllers/hi");
-const { jack } =
-require("../controllers/jack");
+const { du } =
+require("../controllers/dudu");
 const { joe } =
 require("../controllers/joe");
 
@@ -147,7 +147,7 @@ router.get("/cauhoiv2", cauhoiv2);
 router.get("/sleep", sleep);
 router.get("/sontung", sontung);
 router.get("/hi", hi);
-router.get("jack", jack);
+router.get("du", du);
 router.get("joe", joe);
 
 module.exports = router;
