@@ -83,7 +83,7 @@ const { sontung } =
 require("../controllers/sontung");
 const { hi } = require("../controllers/hi");
 const { du } =
-require("../controllers/dudu");
+require("../controllers/du");
 const { joe } =
 require("../controllers/joe");
 
