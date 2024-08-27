@@ -41,94 +41,12 @@ require("../controllers/vdcosplayv2");
 const { vidhaihuoc } =
 require("../controllers/vidhaihuoc");
 const { vidthamgia } =
-require("../controllers/vidthamgia");
+require("../controllers/videogai");
 const { tamtrang } =  require("../controllers/tamtrang");
 const { tamtrangv2 } = require("../controllers/tamtrangv2");
 const { chill } = require("../controllers/chill");
 const { chillvn } =
-require("../controllers/chillvn");
-const { thinhv2 } = require("../controllers/thinhv2");
-const { cadaov2 } = require("../controllers/cadaov2");
-const { anime } = require("../controllers/anime");
-const { animeanhve } =
-require("../controllers/animeanhve");
-const { animemotmat } =
-require("../controllers/animemotmat");
-const { animethuong } =
-require("../controllers/animethuong");
-const { animev2 } = require("../controllers/animev2");
-const { rem } = require("../controllers/rem");
-const { remix } =
-require("../controllers/remix");
-const { robot } = require("../controllers/robot");
-const { joker } = require("../controllers/joker");
-const { mp3 } =
-require("../controllers/mp3");
-const { gaiaodai } = require("../controllers/gaiaodai");
-const { gaiaodaiv2 } = require("../controllers/gaiaodaiv2");
-const { gaidutdut } =
-require("../controllers/gaidutdut");
-const { thinh } = require("../controllers/thinh");
-const { trai } = require("../controllers/trai");
-const { traiv2 } = require("../controllers/traiv2");
-const { cosplay } = require("../controllers/cosplay");
-const { cosplayv2 } = require("../controllers/cosplayv2");
-const { cover } =
-require("../controllers/cover");
-const { doraemon } = require("../controllers/doraemon");
-const { cauhoi } = require("../controllers/cauhoi");
-const { cauhoiv2 } = require("../controllers/cauhoiv2");
-const { sleep } = require("../controllers/sleep");
-const { sontung } =
-require("../controllers/sontung");
-const { hi } = require("../controllers/hi");
-const { jack } =
-require("../controllers/jack");
-const { joe } =
-require("../controllers/joe");
-
-router.get("/getLink1", getLink1);
-router.get("/getLink2", getLink2);
-router.get("/sound", sound);
-router.get("/soundv2", soundv2);
-router.get("/girl", girl);
-router.get("/girlduyetbox", girlduyetbox);
-router.get("/cadao", cadao);
-router.get("/cadaov2", cadaov2);
-router.get("/canhgame", canhgame);
-router.get("/capcut", capcut);
-router.get("/girlv2", girlv2);
-router.get("/ad", ad);
-router.get("/adv2", adv2);
-router.get("/danhngon", danhngon);
-router.get("/denvau", denvau);
-router.get("/donld", donld);
-router.get("/trai", trai);
-router.get("/traiv2", traiv2);
-router.get("/joker", joker);
-router.get("/mp3", mp3);
-router.get("/gaiaodai", gaiaodai);
-router.get("/gaidutdut", gaidutdut);
-router.get("/gaiaodaiv2", gaiaodaiv2);
-router.get("/thinhv2", thinhv2);
-router.get("/thinh", thinh);
-router.get("/ngontinh", ngontinh);
-router.get("/nyvanh", nyvanh) 
-router.get("/science", science);
-router.get("/tamtrang", tamtrang);
-router.get("/tamtrangv2", tamtrangv2);
-router.get("/chill", chill);
-router.get("/chillvn", chillvn);
-router.get("/rem", rem);
-router.get("/remix", remix);
-router.get("/robot", robot);
-router.get("/doraemon", doraemon);
-router.get("/vdanime", vdanime);
-router.get("/vdanime2", vdanime2);
-router.get("/vdcosplay", vdcosplay);
-router.get("/vdcosplayv2", vdcosplayv2);
-router.get("/vidhaihuoc", vidhaihuoc);
-router.get("/vidthamgia", vidthamgia);
+requirvideogai);
 router.get("/anime", anime);
 router.get("/animeanhve", animeanhve);
 router.get("/animemotmat", animemotmat);
