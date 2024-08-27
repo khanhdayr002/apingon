@@ -40,7 +40,7 @@ const { vdcosplayv2 } =
 require("../controllers/vdcosplayv2");
 const { vidhaihuoc } =
 require("../controllers/vidhaihuoc");
-const { vidthamgia } =
+const { videogai } =
 require("../controllers/videogai");
 const { tamtrang } =  require("../controllers/tamtrang");
 const { tamtrangv2 } = require("../controllers/tamtrangv2");
