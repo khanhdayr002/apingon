@@ -46,7 +46,7 @@ const { tamtrang } =  require("../controllers/tamtrang");
 const { tamtrangv2 } = require("../controllers/tamtrangv2");
 const { chill } = require("../controllers/chill");
 const { chillvn } =
-requirvideogai);
+router.get {"/videogai", vdgai);
 router.get("/anime", anime);
 router.get("/animeanhve", animeanhve);
 router.get("/animemotmat", animemotmat);
